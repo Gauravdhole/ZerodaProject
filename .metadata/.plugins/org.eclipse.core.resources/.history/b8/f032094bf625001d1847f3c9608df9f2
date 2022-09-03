@@ -1,0 +1,29 @@
+package CodingPrograms;
+
+public class Prog14 {
+  public static void main(String[] args) {
+	
+	  //logic to count number  strings occresnces;
+	  
+	   int  abc = CountOccerces("gauravdhole",'g');
+	  
+	  System.out.println(abc);
+	  
+}
+
+private static int CountOccerces(String string, char c) {
+	// TODO Auto-generated method stub
+	 int count=0;
+	for(int i=0;i<string.length();i++) {
+		
+		
+	
+	if(string.charAt(i)==c) {
+		count++;
+	}
+	
+	}
+	return count;
+	
+}
+}

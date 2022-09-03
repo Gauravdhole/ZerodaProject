@@ -1,0 +1,19 @@
+package CodingPrograms;
+
+public class prog9 {
+  public static void main(String[] args) {
+	
+	  
+	  //Write program to find Prime number from 1 to 100
+	  
+	   int val=11;
+	   for( int i= 2;i<=11;i++) {
+		   
+		   
+	   }
+	  
+	  
+	  
+	  
+}
+}

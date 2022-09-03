@@ -1,0 +1,24 @@
+package CodingPrograms;
+
+public class Prog15 {
+
+	
+	public static void main(String[] args) {
+		
+		
+		 int a= 99685;
+		 int reverser=0;
+		 
+		 while (a!=0) {	
+			 
+			 int digit = a%10;
+			 
+			 digit=digit+reverser*10;
+			 a=a/10;
+		}
+		 System.out.println(reverser);
+	}
+	
+	
+	
+}

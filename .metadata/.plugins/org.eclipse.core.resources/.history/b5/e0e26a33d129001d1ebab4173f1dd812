@@ -1,0 +1,8 @@
+package CodingPrograms;
+
+public class Prog77 {
+	String a= "hello";//string literal
+	String b= "Hello"
+	String Ab = new String("hello");
+
+}

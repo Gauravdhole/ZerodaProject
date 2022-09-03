@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;sheet12.xlsx&apos; to &apos;ExcelSheets&apos;&#x0D;&#x0A;- Original project: &apos;ExcelFreamework&apos;&#x0D;&#x0A;- Destination element: &apos;ExcelSheets&apos;&#x0D;&#x0A;- Original element: &apos;sheet12.xlsx&apos;" description="Copy file" element1="ExcelFile/sheet12.xlsx" files="1" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1661532294875" target="/ZerodaE2EProgram/ExcelSheets" units="0" version="1.0"/>
+</session>

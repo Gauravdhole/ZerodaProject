@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;java.Program1&apos; to &apos;SomeOfElements&apos;&#x0D;&#x0A;- Original project: &apos;CoreJava&apos;&#x0D;&#x0A;- Original element: &apos;java.Program1&apos;&#x0D;&#x0A;- Renamed element: &apos;java.SomeOfElements&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Program1&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;java{Program1.java[Program1" matchStrategy="1" name="SomeOfElements" qualified="false" references="true" similarDeclarations="false" stamp="1660988904309" textual="false" version="1.0"/>
+</session>

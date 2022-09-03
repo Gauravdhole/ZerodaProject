@@ -1,0 +1,57 @@
+package FrontPageTest;
+
+import java.io.IOException;
+
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+import org.openqa.selenium.WebDriver;
+import org.testng.annotations.AfterClass;
+import org.testng.annotations.BeforeClass;
+import org.testng.annotations.Test;
+
+
+
+import BaseClases.BasedClassBrowsers;
+import FrontPage.FrontPageLoginPages;
+
+public class FrontLoginTest extends BasedClassBrowsers {
+	public WebDriver driver;
+
+	public static Logger Log = LogManager.getLogger(FrontLoginTest.class.getName());
+
+	@BeforeClass
+	public void Start() throws IOException {
+		
+	    driver = initalization();
+	    
+		driver.get(prop.getProperty("url"));
+		
+		// directory where output is to be printed
+		
+	}
+
+	@Test
+
+	public void StartLoginProcess() {
+		FrontPageLoginPages fpage = new FrontPageLoginPages(driver);
+
+		Log.info("Login on FrontLoginTEST");
+		fpage.verifyTextUserName().sendKeys("PGP313");
+		Log.info("enter the username");
+		fpage.verifyTextPassword().sendKeys("Gaurav@1996");
+		Log.info("enter the passwords");
+		fpage.verifyClickSumited().click();
+		Log.info("enter the click on it");
+		fpage.verifyTextPIN().sendKeys("111996");
+		Log.info("enter the pin on it");
+		fpage.verifyClickContinues().click();
+		Log.info("enter the click on it");
+
+	}
+
+	@AfterClass
+	public void end() {
+		driver.quit();
+	}
+
+}

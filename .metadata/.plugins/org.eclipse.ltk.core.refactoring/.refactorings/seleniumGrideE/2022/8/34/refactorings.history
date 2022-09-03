@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;googltest.java&apos; to &apos;seleniumGrideE/src/test/java/seleniumGrideE&apos;&#x0D;&#x0A;- Original project: &apos;seleniumGrideE&apos;&#x0D;&#x0A;- Destination element: &apos;seleniumGrideE/src/test/java/seleniumGrideE&apos;&#x0D;&#x0A;- Original element: &apos;seleniumGrideE.googltest.java&apos;" description="Copy compilation unit" destination="/src\/test\/java=/optional=/true=/=/maven.pomderived=/true=/=/test=/true=/&lt;seleniumGrideE" element1="/src\/test\/java=/optional=/true=/=/maven.pomderived=/true=/=/test=/true=/&lt;seleniumGrideE{googltest.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1660491422688" units="1" version="1.0"/>
+</session>

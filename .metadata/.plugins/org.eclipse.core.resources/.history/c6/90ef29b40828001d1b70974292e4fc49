@@ -1,0 +1,23 @@
+package Api;
+
+import io.restassured.RestAssured;
+import static   io.restassured.RestAssured.*;
+
+public class Basic {
+public static void main(String[] args) {
+	
+	
+	
+	
+	// given - all input details
+	//when - sumit the api
+	//then- validate the responsed
+	
+	RestAssured.baseURI="https://rahulshettyacademy.com";
+	
+	given().
+	
+}
+	
+	
+}

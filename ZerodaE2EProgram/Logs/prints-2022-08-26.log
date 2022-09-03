@@ -1,0 +1,6 @@
+12:57:47.743 [TestNG-tests-4] INFO  FrontPageTest.DahBoardTest - pin typing
+12:57:47.776 [TestNG-tests-3] INFO  FrontPageTest.FrontLoginTest - enter the click on it
+12:57:47.878 [TestNG-tests-4] INFO  FrontPageTest.DahBoardTest - moves to OrderElemet
+12:57:49.087 [TestNG-tests-4] INFO  FrontPageTest.DahBoardTest - after click on order element then click on start
+12:57:49.561 [TestNG-tests-2] INFO  FrontPageTest.DahBoardTest - Driver to inialzes and move to url 
+12:57:50.180 [TestNG-tests-2] INFO  FrontPageTest.DahBoardTest - Then  login  Page is open  in it 

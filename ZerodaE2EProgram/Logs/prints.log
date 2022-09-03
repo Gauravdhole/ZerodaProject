@@ -1,0 +1,5 @@
+22:04:45.011 [main] INFO  FrontPageTest.DahBoardTest - FrontPage.FrontPageLoginPages@77b3752b
+22:04:45.047 [main] INFO  FrontPageTest.DahBoardTest -  automated types url and move to password
+22:04:45.063 [main] INFO  FrontPageTest.DahBoardTest - Password is hide in it
+22:04:45.301 [main] INFO  FrontPageTest.DahBoardTest - click on LoginButton
+22:04:45.321 [main] INFO  FrontPageTest.DahBoardTest - pin typing

@@ -1,0 +1,32 @@
+package BasedClassesPakges;
+
+import java.time.Duration;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+import io.github.bonigarcia.wdm.WebDriverManager;
+
+public class BaseClass {
+
+	
+	public static void main(String[] args) {
+		
+		
+		WebDriverManager.chromedriver().setup();
+		WebDriver driver= new ChromeDriver();
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+		driver.get("https://kite.zerodha.com/");
+		
+		
+		driver.findElement(By.xpath(" //input[@id='userid']")).sendKeys("PGP313");
+		
+		driver.findElement(By.xpath("//input[@id='password']")).sendKeys("Gaurav@1996");
+		driver.findElement(By.xpath("//button[@type='submit']")).click();
+		driver.findElement(By.xpath("//input[@id='pin']")).sendKeys("111996");
+		driver.findElement(By.xpath("//button[@type='submit']")).click();
+		
+	}
+	
+}

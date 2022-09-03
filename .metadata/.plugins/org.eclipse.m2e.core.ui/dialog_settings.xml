@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="MavenProjectWizardLocationPage">
+		<list key="location">
+			<item value="C:\Users\gaura\eclipse-workspace\calender\src\CodingPrograms\Prog15.java"/>
+			<item value="C:\Users\gaura\eclipse-workspace\ZerodaE2EProgram"/>
+			<item value="C:\Users\gaura\eclipse-workspace\AchePOISelenium"/>
+			<item value="C:\Users\gaura\eclipse-workspace\SauceLab"/>
+			<item value="C:\Users\gaura\eclipse-workspace\Project2"/>
+			<item value="C:\Users\gaura\eclipse-workspace\E2EProject"/>
+			<item value="C:\Users\gaura\eclipse-workspace\projects1"/>
+			<item value="C:\Users\gaura\eclipse-workspace\AchePOISelenium\Excel"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArchetypePage">
+		<item key="catalog" value="All Catalogs"/>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="Maven2ProjectWizardArchifactPage">
+		<list key="package">
+		</list>
+		<list key="groupId">
+		</list>
+		<list key="artifactId">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArtifactPage">
+		<list key="groupId">
+			<item value="GauravDhole"/>
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+			<item value="SeleniumFrameWork"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+	<section name="wizardPage">
+		<list key="groupId">
+			<item value="ExtentsRepors"/>
+			<item value="CoreJava"/>
+			<item value="SauceLab"/>
+			<item value="SeleniumFeatureLatest"/>
+			<item value="SeleniumGrides"/>
+			<item value="SelniumGride"/>
+			<item value="calender1"/>
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+			<item value="ExtentsRepors"/>
+			<item value="CoreJava"/>
+			<item value="SauceLab"/>
+			<item value="SeleniumFeatureLatest"/>
+			<item value="SeleniumGrides"/>
+			<item value="SelniumGride"/>
+			<item value="calender"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+</section>

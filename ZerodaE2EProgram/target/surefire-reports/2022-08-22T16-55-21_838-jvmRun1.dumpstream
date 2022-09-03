@@ -1,0 +1,11 @@
+# Created at 2022-08-22T16:56:11.115
+no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=104.0.5112.82)
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'GAURAV', ip: '192.168.1.2', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0ec9d4b017fc046458b8ee4a14f6644b, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.82, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\gaura\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:57396}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57396/devtoo..., se:cdpVersion: 104.0.5112.82, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 0ec9d4b017fc046458b8ee4a14f6644b
+

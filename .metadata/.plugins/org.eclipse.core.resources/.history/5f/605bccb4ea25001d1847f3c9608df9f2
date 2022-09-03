@@ -1,0 +1,22 @@
+package CodingPrograms;
+
+public class prog11 {
+
+	
+	
+	 public static void main(String[] args) {
+		//given the string it is reversed it is simaliar or not 
+		 
+		 
+		 
+		 
+		 String  a= "gaurav";
+		 //varuaG
+		 
+		 for( int i= a.length()-1;i>0;i--) {
+			 System.out.println(a.charAt(i));
+		 }
+		 
+		 
+	}
+}

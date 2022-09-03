@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="10" passed="9" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-08-22T17:55:10 IST" name="Suite" finished-at="2022-08-22T17:56:43 IST" duration-ms="92537">
+    <groups>
+    </groups>
+    <test started-at="2022-08-22T17:55:10 IST" name="Test" finished-at="2022-08-22T17:56:43 IST" duration-ms="92537">
+      <class name="FrontPageTest.PositionPageTest">
+        <test-method is-config="true" signature="StartProcess()[pri:0, instance:FrontPageTest.PositionPageTest@452ba1db]" started-at="2022-08-22T17:55:27 IST" name="StartProcess" finished-at="2022-08-22T17:55:31 IST" duration-ms="3911" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StartProcess -->
+        <test-method signature="VerifyLoginPages()[pri:1, instance:FrontPageTest.PositionPageTest@452ba1db]" started-at="2022-08-22T17:55:31 IST" name="VerifyLoginPages" finished-at="2022-08-22T17:55:31 IST" duration-ms="363" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyLoginPages -->
+        <test-method signature="VerifyPosition()[pri:2, instance:FrontPageTest.PositionPageTest@452ba1db]" started-at="2022-08-22T17:55:31 IST" name="VerifyPosition" finished-at="2022-08-22T17:56:42 IST" duration-ms="71111" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"div[@class='instrument-search']//input[@placeholder='Search eg: infy bse, nifty fut, nifty weekly, gold mcx']"}
+  (Session info: chrome=104.0.5112.82)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'GAURAV', ip: '192.168.1.2', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d4824589df62d2476a2e6b951f113197, findElement {using=xpath, value=div[@class='instrument-search']//input[@placeholder='Search eg: infy bse, nifty fut, nifty weekly, gold mcx']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.82, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\gaura\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:51371}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51371/devtoo..., se:cdpVersion: 104.0.5112.82, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: d4824589df62d2476a2e6b951f113197]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"div[@class='instrument-search']//input[@placeholder='Search eg: infy bse, nifty fut, nifty weekly, gold mcx']"}
+  (Session info: chrome=104.0.5112.82)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'GAURAV', ip: '192.168.1.2', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d4824589df62d2476a2e6b951f113197, findElement {using=xpath, value=div[@class='instrument-search']//input[@placeholder='Search eg: infy bse, nifty fut, nifty weekly, gold mcx']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.82, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\gaura\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:51371}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51371/devtoo..., se:cdpVersion: 104.0.5112.82, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: d4824589df62d2476a2e6b951f113197
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:558)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:382)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:374)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+at jdk.proxy2/jdk.proxy2.$Proxy29.sendKeys(Unknown Source)
+at FrontPageTest.PositionPageTest.VerifyPosition(PositionPageTest.java:54)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:806)
+at org.testng.TestRunner.run(TestRunner.java:601)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:324)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:74)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:123)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyPosition -->
+        <test-method is-config="true" signature="end()[pri:0, instance:FrontPageTest.PositionPageTest@452ba1db]" started-at="2022-08-22T17:56:43 IST" name="end" finished-at="2022-08-22T17:56:43 IST" duration-ms="127" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- end -->
+      </class> <!-- FrontPageTest.PositionPageTest -->
+      <class name="FrontPageTest.FrontLoginTest">
+        <test-method is-config="true" signature="Start()[pri:0, instance:FrontPageTest.FrontLoginTest@4b85880b]" started-at="2022-08-22T17:55:17 IST" name="Start" finished-at="2022-08-22T17:55:19 IST" duration-ms="1911" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Start -->
+        <test-method signature="StartLoginProcess()[pri:0, instance:FrontPageTest.FrontLoginTest@4b85880b]" started-at="2022-08-22T17:55:19 IST" name="StartLoginProcess" finished-at="2022-08-22T17:55:19 IST" duration-ms="439" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StartLoginProcess -->
+        <test-method is-config="true" signature="end()[pri:0, instance:FrontPageTest.FrontLoginTest@4b85880b]" started-at="2022-08-22T17:55:19 IST" name="end" finished-at="2022-08-22T17:55:19 IST" duration-ms="79" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- end -->
+      </class> <!-- FrontPageTest.FrontLoginTest -->
+      <class name="FrontPageTest.HoldingTest">
+        <test-method is-config="true" signature="GetStarOrder()[pri:0, instance:FrontPageTest.HoldingTest@4215838f]" started-at="2022-08-22T17:55:23 IST" name="GetStarOrder" finished-at="2022-08-22T17:55:25 IST" duration-ms="1776" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetStarOrder -->
+        <test-method signature="VerifyFrontPageTest()[pri:1, instance:FrontPageTest.HoldingTest@4215838f]" started-at="2022-08-22T17:55:25 IST" name="VerifyFrontPageTest" finished-at="2022-08-22T17:55:26 IST" duration-ms="409" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyFrontPageTest -->
+        <test-method signature="VerifyHoldingTest()[pri:2, instance:FrontPageTest.HoldingTest@4215838f]" started-at="2022-08-22T17:55:26 IST" name="VerifyHoldingTest" finished-at="2022-08-22T17:55:27 IST" duration-ms="1354" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyHoldingTest -->
+        <test-method is-config="true" signature="end123()[pri:0, instance:FrontPageTest.HoldingTest@4215838f]" started-at="2022-08-22T17:55:27 IST" name="end123" finished-at="2022-08-22T17:55:27 IST" duration-ms="134" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- end123 -->
+      </class> <!-- FrontPageTest.HoldingTest -->
+      <class name="FrontPageTest.FrontObjectTest">
+        <test-method is-config="true" signature="Config()[pri:0, instance:FrontPageTest.FrontObjectTest@2a65bb85]" started-at="2022-08-22T17:55:15 IST" name="Config" finished-at="2022-08-22T17:55:17 IST" duration-ms="1804" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Config -->
+        <test-method signature="ObjectTest()[pri:0, instance:FrontPageTest.FrontObjectTest@2a65bb85]" started-at="2022-08-22T17:55:17 IST" name="ObjectTest" finished-at="2022-08-22T17:55:17 IST" duration-ms="219" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ObjectTest -->
+        <test-method is-config="true" signature="end()[pri:0, instance:FrontPageTest.FrontObjectTest@2a65bb85]" started-at="2022-08-22T17:55:17 IST" name="end" finished-at="2022-08-22T17:55:17 IST" duration-ms="218" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- end -->
+      </class> <!-- FrontPageTest.FrontObjectTest -->
+      <class name="FrontPageTest.DahBoardTest">
+        <test-method is-config="true" signature="StartDahBord()[pri:0, instance:FrontPageTest.DahBoardTest@6273c5a4]" started-at="2022-08-22T17:55:10 IST" name="StartDahBord" finished-at="2022-08-22T17:55:13 IST" duration-ms="2826" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StartDahBord -->
+        <test-method signature="VerifyFrontTest()[pri:1, instance:FrontPageTest.DahBoardTest@6273c5a4]" started-at="2022-08-22T17:55:13 IST" name="VerifyFrontTest" finished-at="2022-08-22T17:55:13 IST" duration-ms="443" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyFrontTest -->
+        <test-method signature="VerifyDashBoard()[pri:2, instance:FrontPageTest.DahBoardTest@6273c5a4]" started-at="2022-08-22T17:55:13 IST" name="VerifyDashBoard" finished-at="2022-08-22T17:55:15 IST" duration-ms="1298" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyDashBoard -->
+      </class> <!-- FrontPageTest.DahBoardTest -->
+      <class name="FrontPageTest.Ordertest">
+        <test-method is-config="true" signature="LetGo()[pri:0, instance:FrontPageTest.Ordertest@4f936da8]" started-at="2022-08-22T17:55:19 IST" name="LetGo" finished-at="2022-08-22T17:55:21 IST" duration-ms="1850" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LetGo -->
+        <test-method signature="VerifyFrontPageTest()[pri:1, instance:FrontPageTest.Ordertest@4f936da8]" started-at="2022-08-22T17:55:21 IST" name="VerifyFrontPageTest" finished-at="2022-08-22T17:55:22 IST" duration-ms="430" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyFrontPageTest -->
+        <test-method signature="VerifyOrding()[pri:2, instance:FrontPageTest.Ordertest@4f936da8]" started-at="2022-08-22T17:55:22 IST" name="VerifyOrding" finished-at="2022-08-22T17:55:23 IST" duration-ms="1560" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyOrding -->
+        <test-method is-config="true" signature="end12()[pri:0, instance:FrontPageTest.Ordertest@4f936da8]" started-at="2022-08-22T17:55:23 IST" name="end12" finished-at="2022-08-22T17:55:23 IST" duration-ms="74" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- end12 -->
+      </class> <!-- FrontPageTest.Ordertest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

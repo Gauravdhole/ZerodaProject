@@ -1,0 +1,6 @@
+22:04:41.055 [main] INFO  FrontPageTest.DahBoardTest -  automated types url and move to password
+22:04:41.075 [main] INFO  FrontPageTest.DahBoardTest - Password is hide in it
+22:04:41.298 [main] INFO  FrontPageTest.DahBoardTest - click on LoginButton
+22:04:41.313 [main] INFO  FrontPageTest.DahBoardTest - pin typing
+22:04:44.134 [main] INFO  FrontPageTest.DahBoardTest - Driver to inialzes and move to url 
+22:04:45.010 [main] INFO  FrontPageTest.DahBoardTest - Then  login  Page is open  in it 

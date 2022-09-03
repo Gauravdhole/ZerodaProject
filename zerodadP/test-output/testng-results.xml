@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="11" passed="11" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-08-08T20:51:36 IST" name="Suite" finished-at="2022-08-08T20:52:06 IST" duration-ms="30126">
+    <groups>
+    </groups>
+    <test started-at="2022-08-08T20:51:36 IST" name="Test" finished-at="2022-08-08T20:52:06 IST" duration-ms="30126">
+      <class name="logintestcase.frontLogintest">
+        <test-method is-config="true" signature="frontIntialtion()[pri:0, instance:logintestcase.frontLogintest@443118b0]" started-at="2022-08-08T20:51:53 IST" name="frontIntialtion" finished-at="2022-08-08T20:51:55 IST" duration-ms="1343" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- frontIntialtion -->
+        <test-method signature="intiallogingMethod(java.lang.String,java.lang.String)[pri:0, instance:logintestcase.frontLogintest@443118b0]" started-at="2022-08-08T20:51:55 IST" name="intiallogingMethod" data-provider="getData" finished-at="2022-08-08T20:51:55 IST" duration-ms="147" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[WWM@AD.COM]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12345]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intiallogingMethod -->
+        <test-method is-config="true" signature="Atest()[pri:0, instance:logintestcase.frontLogintest@443118b0]" started-at="2022-08-08T20:51:55 IST" name="Atest" finished-at="2022-08-08T20:51:55 IST" duration-ms="69" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Atest -->
+        <test-method is-config="true" signature="frontIntialtion()[pri:0, instance:logintestcase.frontLogintest@443118b0]" started-at="2022-08-08T20:51:55 IST" name="frontIntialtion" finished-at="2022-08-08T20:51:56 IST" duration-ms="1330" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- frontIntialtion -->
+        <test-method signature="intiallogingMethod(java.lang.String,java.lang.String)[pri:0, instance:logintestcase.frontLogintest@443118b0]" started-at="2022-08-08T20:51:56 IST" name="intiallogingMethod" data-provider="getData" finished-at="2022-08-08T20:51:56 IST" duration-ms="139" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Gaurav@#$%.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[578742]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intiallogingMethod -->
+        <test-method is-config="true" signature="Atest()[pri:0, instance:logintestcase.frontLogintest@443118b0]" started-at="2022-08-08T20:51:56 IST" name="Atest" finished-at="2022-08-08T20:52:00 IST" duration-ms="4126" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Atest -->
+        <test-method is-config="true" signature="frontIntialtion()[pri:0, instance:logintestcase.frontLogintest@443118b0]" started-at="2022-08-08T20:52:00 IST" name="frontIntialtion" finished-at="2022-08-08T20:52:02 IST" duration-ms="1203" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- frontIntialtion -->
+        <test-method signature="intiallogingMethod(java.lang.String,java.lang.String)[pri:0, instance:logintestcase.frontLogintest@443118b0]" started-at="2022-08-08T20:52:02 IST" name="intiallogingMethod" data-provider="getData" finished-at="2022-08-08T20:52:02 IST" duration-ms="122" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ETVHJ4542.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[HJGUB5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intiallogingMethod -->
+        <test-method is-config="true" signature="Atest()[pri:0, instance:logintestcase.frontLogintest@443118b0]" started-at="2022-08-08T20:52:02 IST" name="Atest" finished-at="2022-08-08T20:52:02 IST" duration-ms="63" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Atest -->
+        <test-method is-config="true" signature="frontIntialtion()[pri:0, instance:logintestcase.frontLogintest@443118b0]" started-at="2022-08-08T20:52:02 IST" name="frontIntialtion" finished-at="2022-08-08T20:52:03 IST" duration-ms="1202" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- frontIntialtion -->
+        <test-method signature="intiallogingMethod(java.lang.String,java.lang.String)[pri:0, instance:logintestcase.frontLogintest@443118b0]" started-at="2022-08-08T20:52:03 IST" name="intiallogingMethod" data-provider="getData" finished-at="2022-08-08T20:52:03 IST" duration-ms="133" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[podgfhb@jf.%%^$$ckf]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[vfdhf888**WE]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intiallogingMethod -->
+        <test-method is-config="true" signature="Atest()[pri:0, instance:logintestcase.frontLogintest@443118b0]" started-at="2022-08-08T20:52:03 IST" name="Atest" finished-at="2022-08-08T20:52:03 IST" duration-ms="58" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Atest -->
+        <test-method is-config="true" signature="frontIntialtion()[pri:0, instance:logintestcase.frontLogintest@443118b0]" started-at="2022-08-08T20:52:03 IST" name="frontIntialtion" finished-at="2022-08-08T20:52:06 IST" duration-ms="3187" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- frontIntialtion -->
+        <test-method signature="intiallogingMethod(java.lang.String,java.lang.String)[pri:0, instance:logintestcase.frontLogintest@443118b0]" started-at="2022-08-08T20:52:06 IST" name="intiallogingMethod" data-provider="getData" finished-at="2022-08-08T20:52:06 IST" duration-ms="100" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[!@#$%^&*()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ppood]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intiallogingMethod -->
+        <test-method is-config="true" signature="Atest()[pri:0, instance:logintestcase.frontLogintest@443118b0]" started-at="2022-08-08T20:52:06 IST" name="Atest" finished-at="2022-08-08T20:52:06 IST" duration-ms="57" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Atest -->
+      </class> <!-- logintestcase.frontLogintest -->
+      <class name="logintestcase.loginTest">
+        <test-method is-config="true" signature="InitialtizationL()[pri:0, instance:logintestcase.loginTest@689604d9]" started-at="2022-08-08T20:51:36 IST" name="InitialtizationL" finished-at="2022-08-08T20:51:38 IST" duration-ms="1884" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InitialtizationL -->
+        <test-method signature="verifyPassword()[pri:0, instance:logintestcase.loginTest@689604d9]" started-at="2022-08-08T20:51:38 IST" name="verifyPassword" finished-at="2022-08-08T20:51:38 IST" duration-ms="57" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPassword -->
+        <test-method is-config="true" signature="Atest()[pri:0, instance:logintestcase.loginTest@689604d9]" started-at="2022-08-08T20:51:38 IST" name="Atest" finished-at="2022-08-08T20:51:42 IST" duration-ms="4144" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Atest -->
+        <test-method is-config="true" signature="InitialtizationL()[pri:0, instance:logintestcase.loginTest@689604d9]" started-at="2022-08-08T20:51:42 IST" name="InitialtizationL" finished-at="2022-08-08T20:51:44 IST" duration-ms="1185" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InitialtizationL -->
+        <test-method signature="verifyforgetUsernam()[pri:0, instance:logintestcase.loginTest@689604d9]" started-at="2022-08-08T20:51:44 IST" name="verifyforgetUsernam" finished-at="2022-08-08T20:51:44 IST" duration-ms="61" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyforgetUsernam -->
+        <test-method is-config="true" signature="Atest()[pri:0, instance:logintestcase.loginTest@689604d9]" started-at="2022-08-08T20:51:44 IST" name="Atest" finished-at="2022-08-08T20:51:44 IST" duration-ms="105" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Atest -->
+        <test-method is-config="true" signature="InitialtizationL()[pri:0, instance:logintestcase.loginTest@689604d9]" started-at="2022-08-08T20:51:44 IST" name="InitialtizationL" finished-at="2022-08-08T20:51:45 IST" duration-ms="1201" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InitialtizationL -->
+        <test-method signature="verifyfrontlogo1Test()[pri:0, instance:logintestcase.loginTest@689604d9]" started-at="2022-08-08T20:51:45 IST" name="verifyfrontlogo1Test" finished-at="2022-08-08T20:51:45 IST" duration-ms="38" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyfrontlogo1Test -->
+        <test-method is-config="true" signature="Atest()[pri:0, instance:logintestcase.loginTest@689604d9]" started-at="2022-08-08T20:51:45 IST" name="Atest" finished-at="2022-08-08T20:51:49 IST" duration-ms="4134" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Atest -->
+        <test-method is-config="true" signature="InitialtizationL()[pri:0, instance:logintestcase.loginTest@689604d9]" started-at="2022-08-08T20:51:49 IST" name="InitialtizationL" finished-at="2022-08-08T20:51:50 IST" duration-ms="1174" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InitialtizationL -->
+        <test-method signature="verifyidontHaveAcount()[pri:0, instance:logintestcase.loginTest@689604d9]" started-at="2022-08-08T20:51:50 IST" name="verifyidontHaveAcount" finished-at="2022-08-08T20:51:50 IST" duration-ms="63" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyidontHaveAcount -->
+        <test-method is-config="true" signature="Atest()[pri:0, instance:logintestcase.loginTest@689604d9]" started-at="2022-08-08T20:51:50 IST" name="Atest" finished-at="2022-08-08T20:51:50 IST" duration-ms="58" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Atest -->
+        <test-method is-config="true" signature="InitialtizationL()[pri:0, instance:logintestcase.loginTest@689604d9]" started-at="2022-08-08T20:51:50 IST" name="InitialtizationL" finished-at="2022-08-08T20:51:52 IST" duration-ms="1198" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InitialtizationL -->
+        <test-method signature="verifylogo()[pri:0, instance:logintestcase.loginTest@689604d9]" started-at="2022-08-08T20:51:52 IST" name="verifylogo" finished-at="2022-08-08T20:51:52 IST" duration-ms="128" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifylogo -->
+        <test-method is-config="true" signature="Atest()[pri:0, instance:logintestcase.loginTest@689604d9]" started-at="2022-08-08T20:51:52 IST" name="Atest" finished-at="2022-08-08T20:51:52 IST" duration-ms="58" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Atest -->
+        <test-method is-config="true" signature="InitialtizationL()[pri:0, instance:logintestcase.loginTest@689604d9]" started-at="2022-08-08T20:51:52 IST" name="InitialtizationL" finished-at="2022-08-08T20:51:53 IST" duration-ms="1208" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InitialtizationL -->
+        <test-method signature="verifyuseridText()[pri:0, instance:logintestcase.loginTest@689604d9]" started-at="2022-08-08T20:51:53 IST" name="verifyuseridText" finished-at="2022-08-08T20:51:53 IST" duration-ms="43" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyuseridText -->
+        <test-method is-config="true" signature="Atest()[pri:0, instance:logintestcase.loginTest@689604d9]" started-at="2022-08-08T20:51:53 IST" name="Atest" finished-at="2022-08-08T20:51:53 IST" duration-ms="58" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Atest -->
+      </class> <!-- logintestcase.loginTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

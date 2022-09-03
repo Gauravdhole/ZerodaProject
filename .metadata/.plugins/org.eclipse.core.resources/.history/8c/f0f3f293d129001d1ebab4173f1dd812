@@ -1,0 +1,19 @@
+package CodingPrograms;
+
+public class Prog77 {
+	
+	public static void main(String[] args) {
+		
+	
+	String a= "hello";//string literal
+	String b= "hello1";
+	String Ab = new String("hello"); 
+	String Ab1 = new String("hello");
+	
+    a.concat(b);
+    System.out.println(a);
+	
+	
+	}
+
+}

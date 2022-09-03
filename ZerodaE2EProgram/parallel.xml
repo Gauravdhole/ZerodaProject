@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests">
+<listeners>
+<listener class-name="FrontPageTest.Listeners"/>
+
+
+</listeners>
+<test name="Front Page DashBoard">
+
+	<classes>
+		<class name="FrontPageTest.DahBoardTest" />
+	</classes>
+</test>
+<test name="FrontPage Objct">
+
+	<classes>
+
+		<class name="FrontPageTest.FrontObjectTest" />
+	</classes>
+</test><test name="FrontLogin test">
+
+	<classes>
+
+		<class name="FrontPageTest.FrontLoginTest" />
+</classes>
+</test><test name="Front Page order">
+
+	<classes>
+		<class name="FrontPageTest.Ordertest" />
+	</classes>
+</test><test name="Front Page Holding">
+
+	<classes>
+		<class name="FrontPageTest.HoldingTest" />
+	</classes>
+</test>
+
+
+<test name="Front Page position">
+
+	<classes>
+		<class name="FrontPageTest.PositionPageTest" />
+	</classes>
+</test>
+
+
+</suite>

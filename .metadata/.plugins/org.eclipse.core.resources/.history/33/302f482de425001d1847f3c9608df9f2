@@ -1,0 +1,39 @@
+package CodingPrograms;
+
+public class prog8 {
+
+	public static void main(String[] args) {
+		
+		
+		// TODO Auto-generated method stub
+
+		
+	
+		//Write java programme for hibonachi series range from 1 to 10
+	
+	//1,2,3 ,5
+	
+		 int a= 0;
+		 
+		 int b= 1;
+		 
+		 int sum= 0;
+		 
+		 
+		 int i =1;
+		 
+		  while(i<9) {
+			  
+			  sum=a+b;
+			  a=b;
+			  b= sum;
+			  i++;
+		  }
+		
+		
+	
+	
+	
+	}
+
+}

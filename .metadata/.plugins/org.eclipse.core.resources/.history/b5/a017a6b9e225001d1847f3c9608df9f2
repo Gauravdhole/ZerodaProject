@@ -1,0 +1,15 @@
+package CodingPrograms;
+
+public class prog8 {
+
+	
+	public static void main(String[] args) {
+		
+		// Write java programme for hibonachi series range from 1 to 10
+	
+		
+		
+		
+		main(args);
+	}
+}

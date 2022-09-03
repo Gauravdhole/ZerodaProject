@@ -1,0 +1,6 @@
+11:24:40.984 [TestNG-tests-1] INFO  FrontPageTest.DahBoardTest - Send the DashBoard to hdfc
+11:24:41.050 [TestNG-tests-2] INFO  FrontPageTest.DahBoardTest - Driver to inialzes and move to url 
+11:24:41.328 [TestNG-tests-1] INFO  FrontPageTest.DahBoardTest - click  on it
+11:24:41.660 [TestNG-tests-2] INFO  FrontPageTest.DahBoardTest - Then  login  Page is open  in it 
+11:24:41.662 [TestNG-tests-2] INFO  FrontPageTest.DahBoardTest - FrontPage.FrontPageLoginPages@5a6c3760
+11:24:41.701 [TestNG-tests-2] INFO  FrontPageTest.DahBoardTest -  automated types url and move to password

@@ -1,0 +1,24 @@
+package CodingPrograms;
+
+public class prog6 {
+public static void main(String[] args) {
+	
+
+	 int a= 4;
+	 int b= 5;
+	 
+	// A= Apples
+		//	 B= orange;
+	 
+	  int temps;
+	  temps=a;
+	  a=b;
+	  b=temps;
+	 
+
+	  System.out.println(a);
+	  System.out.println(b);
+	  
+	  
+}
+}
